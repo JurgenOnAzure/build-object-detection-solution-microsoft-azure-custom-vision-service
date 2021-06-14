@@ -24,7 +24,7 @@ This .NET project shows you how to work with a custom vision project from code a
 
 #### Build the Docker image:
 
-docker build "c:\Temp\CustomVisionExport.Linux" --tag fruitdetection --no-cache
+docker build "c:\Temp\CustomVisionExport.Linux" --tag fruitdetection
 
 #### List Docker images:
 
