@@ -30,19 +30,17 @@ docker build "c:\Temp\CustomVisionExport.Linux" --tag fruitdetection --no-cache
 
 docker image ls
 
-#### Run Docker image in container:
+#### Run the Docker image in container:
 
 docker run --detach --publish 127.0.0.1:9001:80 fruitdetection
 
-#### Call Docker container endpoint with an image from file for object detection:
+#### Call the Docker container endpoint with an image from file for object detection:
 
 curl -X POST http://127.0.0.1:9001/image -H "Content-Type: image/jpeg" --data-binary @"c:\Temp\pear-2166102_1280.jpg"
 
-#### Call Docker container endpoint with an image from a URL for object detection:
+#### Call the Docker container endpoint with an image from a URL for object detection:
 
 curl -X POST http://127.0.0.1:9001/url -d "{ \"url\": \"https://raw.githubusercontent.com/JurgenOnAzure/build-object-detection-solution-microsoft-azure-custom-vision-service/main/images-testing/pear-2166102_1280.jpg\"}"
-
-#### Landing page for Custom Vision documentation:
 
 ## References and documentation
 
