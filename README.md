@@ -46,7 +46,7 @@ curl -X POST http://127.0.0.1:9001/url -d "{ \"url\": \"https://raw.githubuserco
 
 #### Landing page for Custom Vision documentation:
 
-https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service
 
 #### The Custom Vision portal where you manage your projects:
 
