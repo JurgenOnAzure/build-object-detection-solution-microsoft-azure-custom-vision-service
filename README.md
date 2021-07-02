@@ -40,7 +40,7 @@ curl -X POST http://127.0.0.1:9001/image -H "Content-Type: image/jpeg" --data-bi
 
 #### Call the Docker container endpoint with an image from a URL for object detection:
 
-curl -X POST http://127.0.0.1:9001/url -d "{ \"url\": \"https://raw.githubusercontent.com/JurgenOnAzure/build-object-detection-solution-microsoft-azure-custom-vision-service/main/images-testing/pear-2166102_1280.jpg\"}"
+curl -X POST http://127.0.0.1:9001/url -d "{ \\"url\\": \\"https://raw.githubusercontent.com/JurgenOnAzure/build-object-detection-solution-microsoft-azure-custom-vision-service/main/images-testing/pear-2166102_1280.jpg\"}"
 
 ## References and documentation
 
